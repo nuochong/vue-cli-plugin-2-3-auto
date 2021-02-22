@@ -1,4 +1,4 @@
-# vue-cli-plugin-2-3
+# vue-cli-plugin-2-3-auto
 
 Vue CLI 3 plugin for vue2 && vue3
 
