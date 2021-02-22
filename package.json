@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nuochong/vue-cli-plugin-2-3.git"
+    "url": "git+https://github.com/nuochong/vue-cli-plugin-2-3-auto.git"
   },
   "author": "nuo.chong@163.com",
   "license": "MIT",
@@ -20,9 +20,9 @@
     "vue-2-3-auto"
   ],
   "bugs": {
-    "url": "https://github.com/nuochong/vue-cli-plugin-2-3/issues"
+    "url": "https://github.com/nuochong/vue-cli-plugin-2-3-auto/issues"
   },
-  "homepage": "https://github.com/nuochong/vue-cli-plugin-2-3#readme",
+  "homepage": "https://github.com/nuochong/vue-cli-plugin-2-3-auto#readme",
   "engines": {
     "node": ">=8.0"
   },
