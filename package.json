@@ -1,5 +1,5 @@
 {
-  "name": "@vue/vue-cli-plugin-2-3-auto",
+  "name": "vue-cli-plugin-2-3-auto",
   "version": "1.0.0",
   "description": "Vue CLI 3 plugin for Webpack DllPlugin and DllReferencePlugin,improve compilation speed.",
   "main": "index.js",
