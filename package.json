@@ -1,0 +1,33 @@
+{
+  "name": "@vue/vue-cli-plugin-2-3-auto",
+  "version": "1.0.0",
+  "description": "Vue CLI 3 plugin for Webpack DllPlugin and DllReferencePlugin,improve compilation speed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuochong/vue-cli-plugin-2-3.git"
+  },
+  "author": "nuo.chong@163.com",
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "vue-cli3",
+    "plugin",
+    "vue-2-3",
+    "vue-2-3-auto"
+  ],
+  "bugs": {
+    "url": "https://github.com/nuochong/vue-cli-plugin-2-3/issues"
+  },
+  "homepage": "https://github.com/nuochong/vue-cli-plugin-2-3#readme",
+  "engines": {
+    "node": ">=8.0"
+  },
+  "peerDependencies": {
+    "@vue/cli-service": "^3.3.0"
+  },
+  "dependencies": {}
+}
