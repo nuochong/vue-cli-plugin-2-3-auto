@@ -13,11 +13,11 @@ $ vue -V
 ### 安装
 
 ```bash
-$ vue add vue-cli-plugin-2-3
+$ vue add vue-cli-plugin-2-3-auto
 
 # OR
 
-$ vue invoke vue-cli-plugin-2-3
+$ vue invoke vue-cli-plugin-2-3-auto
 ```
 
 ### 快速开始
