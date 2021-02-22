@@ -19,20 +19,20 @@ module.exports = (api, options) => {
         const Vue = loadModule(`${item}\\vue`);
         if (Vue && typeof Vue.version === "string") {
           if (Vue.version.startsWith("2.")) {
-            console.log("vue2");
+            // console.log("vue2");
             toVueVersion = "toVue2";
           } else if (Vue.version.startsWith("3.")) {
-            console.log("vue3");
+            // console.log("vue3");
             toVueVersion = "toVue3";
           } else {
-            const err = `[vue-2-3] Vue version v${Vue.version} is not suppported.`;
-            console.warn(err);
-            throw new Error(err);
+            const Err = `[vue-2-3] Vue version v${Vue.version} is not suppported.`;
+            console.warn(Err);
+            throw new Error(Err);
           }
         }
       }
     }
-    console.log("toVueVersion", toVueObj[toVueVersion]);
+    // console.log("toVueVersion", toVueObj[toVueVersion]);
     let tag = {};
     tag[toVueVersion] = [toVueObj[toVueVersion], "default"];
     config.plugins.push(new webpack.ProvidePlugin(tag));
